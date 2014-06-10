@@ -68,6 +68,8 @@ sudo bash scripts/deploy.sh foo.staging.something.net
 
 The bash script will copy puppet.conf.example into puppet.conf and replace ${certname} placeholder.
 
+The deploy.sh script will also apply manifests so you can skip next step.
+
 You can also optionally use second parameter specifying branch of this repo to be used. For example:
 
 ```
