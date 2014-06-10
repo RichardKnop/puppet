@@ -58,6 +58,24 @@ sudo hostname foo.staging.something.net
 Editing Certname
 ----------------
 
+This will be done when you run:
+
+```
+cd /usr/local/puppet
+sudo bash scripts/deploy.sh foo.staging.something.net
+```
+
+The bash script will copy puppet.conf.example into puppet.conf and replace ${certname} placeholder.
+
+You can also optionally use second parameter specifying branch of this repo to be used. For example:
+
+```
+cd /usr/local/puppet
+sudo bash scripts/deploy.sh foo.dev.something.net develop
+```
+
+Will use develop branch.
+
 Applying Puppet Manifests
 -------------------------
 
