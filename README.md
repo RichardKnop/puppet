@@ -1,7 +1,7 @@
 puppet
 ======
 
-Puppet skeleton for future use.
+Puppet skeleton for future use. Requires Puppet > 3.5.0 to work (ideally use Puppet 3.6.1).
 
 Bootstrap
 ---------
