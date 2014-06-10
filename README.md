@@ -16,7 +16,7 @@ bash /usr/local/puppet/scripts/bootstrap.sh
 
 Then you can either:
 
-1. set up a fully qualified domain name
+1. Set up a fully qualified domain name
 2. Or edit the certname in puppet.conf
 
 Setting Up Fully Qualified Domain Name
